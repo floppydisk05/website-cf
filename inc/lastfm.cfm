@@ -11,8 +11,9 @@ top_tracks = deserializeJSON(toptracks.filecontent).topTracks;
 </cfscript>
 <cfoutput><b>Last/Current Track:</b> <a href="#current_song.url#">#current_song.trackname# • #current_song.artist#</a></cfoutput>
 <cfoutput><h2>Top #TRACKS_TO_SHOW# Tracks (Last 7 days)</h2></cfoutput>
-<ol>
+        <ol>
 <cfloop array="#top_tracks#" item="track">
-<cfoutput><li><a href="#track.url#">#track.name# • #track.artist#</a> <small>(#track.playcount# plays)</small></li></cfoutput>
+<cfoutput>            <li><a href="#track.url#">#track.name# • #track.artist#</a> <small>(#track.playcount# plays)</small></li>
+</cfoutput>
 </cfloop>
-</ol>
+        </ol>

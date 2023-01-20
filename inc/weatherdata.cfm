@@ -17,4 +17,3 @@
         <b>Temperature:</b> <cfoutput>#temp#</cfoutput>°C<br>
         <b>Rain Rate:</b> <cfoutput>#rain_rate#</cfoutput> mm/hr<br>
         <b>Humidity:</b> <cfoutput>#humidity#</cfoutput>%<br>
-        

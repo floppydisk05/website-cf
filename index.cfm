@@ -23,6 +23,7 @@
         <p>Hi!</p>
         <p>This is the personal homepage of floppydisk.
         </p>
+        <cfinclude template="./inc/lastfm.cfm">
         <cfinclude template="./inc/weatherdata.cfm">
         <h1>Contact</h1>
         <p><strong>Mail</strong>: <a href="mailto:contact@diskfloppy.me">contact@diskfloppy.me</a><br>

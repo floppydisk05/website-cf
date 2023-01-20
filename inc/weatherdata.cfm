@@ -6,7 +6,7 @@
 	conditions = data.data.conditions[1];
 	pressure = data.data.conditions[3];
 	temp = numberFormat((conditions.temp - 32) * (5/9), '9.9');
-    rain_rate = numberFormat(conditions.rain_rate_last*0.2, '9.99');
+    rain_rate = numberFormat(conditions.rain_rate_last*0.2, '9.9');
     wind_speed = numberFormat(conditions.wind_speed_last, '9.99');
     wind_direction = numberFormat(conditions.wind_dir_last);
 	humidity = numberformat(conditions.hum);

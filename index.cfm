@@ -6,7 +6,7 @@
     <!-- Global -->
     <cfinclude template="./inc/header.cfm">
     <!-- Page-specific -->
-    <title>TBD</title>
+    <cfinclude template="./inc/title.cfm">
     <meta property="og:title" content="~floppydisk">
     <meta property="og:description" content="This is the personal homepage of floppydisk.">
     <meta property="og:image" content="/favicon.png">
@@ -19,10 +19,8 @@
 
 <div id="pagebody">
     <div id="content">
-        <!--<br><table class="banner"><tr><td class="banner"><b>Service Message:</b> This is more related to <a class="bannerlink" href="//www.nickandfloppy.com/">nickandfloppy.com</a> but our Gitea service is currently in the process of being migrated to a new VPS. Due to the lengthly migration process, <a class="bannerlink" href="//git.nickandfloppy.com/">git.nickandfloppy.com</a> may periodically be unavailable, though this isn't expected until the final transition.<br><br>~ nick and floppy</td></tr></table>-->
         <p>Hi!</p>
-        <p>This is the personal homepage of floppydisk.
-        </p>
+        <p>This is the personal homepage of floppydisk.</p>
         <cfinclude template="./inc/lastfm.cfm">
         <cfinclude template="./inc/weatherdata.cfm">
         <h1>Contact</h1>
